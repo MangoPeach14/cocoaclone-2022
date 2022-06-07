@@ -1,3 +1,3 @@
 # Update des Cocoa-Clone 2022
 
-CSS got so much better!!
+Having so much fun with HTML & CSS!
