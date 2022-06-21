@@ -1,10 +1,52 @@
+.user-component--2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .user-component__column {
     display: flex;
-    margin-left: 20px;
+    align-items: center;
 }
 
 .user-component__avatar {
     width: 70px;
     height: 70px;
-    border-radius: 30px;
+    border-radius: 28px;
 }
+
+.user-component__text {
+    margin-left: 20px;
+    
+}
+
+.user-component__text--tiny {
+    display: flex;
+    align-items: center;
+}
+
+.user-component__title {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.user-component__avatar__avatar--sm {
+    height: 60px;
+    width: 60px;
+    border-radius: 25px;
+}
+
+.user-component__title--normal {
+    font-weight: 400;
+}
+
+.user-screen__channel {
+    margin-top: 25px;
+    border-top: 1px solid rgba(0,0, 0, 0.3);
+    padding-top: 15px;
+}
+
+.user-screen__channel--header {
+    margin-bottom: 30px;
+}
+
