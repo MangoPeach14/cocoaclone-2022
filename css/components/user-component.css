@@ -7,6 +7,7 @@
 .user-component__column {
     display: flex;
     align-items: center;
+    margin-top: -10px;
 }
 
 .user-component__avatar {
@@ -49,4 +50,13 @@
 .user-screen__channel--header {
     margin-bottom: 30px;
 }
+
+.user-component__column--chat {
+    margin-top: 30px;
+}
+
+.user-component__subtitle {
+    color: rgba(0,0, 0, 0.5);
+}
+
 

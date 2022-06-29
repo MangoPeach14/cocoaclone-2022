@@ -4,7 +4,7 @@
     align-items: center;
     padding: 10px;
     background-color: #fafafa;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 #friends-name-display i {
@@ -15,7 +15,7 @@
 }
 
 .friends-screen {
-    padding : 0px var(--horizontal-space);
+    padding : 0px var(--horizontal-space)
 }
 
 .user-screen__channel--header {
@@ -32,3 +32,6 @@
 .user-screen__channel--header {
     margin-bottom: 30px;
 }
+
+
+ 
