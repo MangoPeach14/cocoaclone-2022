@@ -1,4 +1,4 @@
-.user-component--2 {
+.user-component {
     display: flex;
     justify-content: space-between;
 }
@@ -9,6 +9,25 @@
     align-items: center;
     margin-top: -10px;
 }
+
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__column:last-child {
+    color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
+}
+
 
 .user-component__avatar {
     width: 70px;
@@ -49,10 +68,6 @@
 
 .user-screen__channel--header {
     margin-bottom: 30px;
-}
-
-.user-component__column--chat {
-    margin-top: 30px;
 }
 
 .user-component__subtitle {

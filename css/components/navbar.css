@@ -8,6 +8,16 @@
 
 }
 
+.nav--chat{
+    background-color: #f9f8fb;
+    padding: 20px ;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+}
+
 .nav__ul{
     display: flex;
     justify-content: space-around;
@@ -22,6 +32,15 @@
     position: absolute;
     left: 11px;
     bottom: 9px;
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
 }
 
 .nav__link--dot {
