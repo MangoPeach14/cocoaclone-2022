@@ -1,5 +1,6 @@
 :root{
     --yellow: #fbe000 ;
-    --cocoagrey: #272b2f ;
+    --cocoagrey:rgba(0,0,0,0.4); 
     --horizontal-space: 25px ;
+    --greyborder: 1px solid rgba(0,0,0,0.1);
 }

@@ -43,13 +43,3 @@
     font-weight: 600;
 }
 
-.nav__link--dot {
-    background-color: tomato;
-    display: flex;
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 15px;
-    left: 20px;
-}

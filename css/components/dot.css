@@ -1,0 +1,21 @@
+.nav__link--dot {
+    background-color: tomato;
+    display: flex;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+.screen-header__icons--dot {
+    background-color: tomato;
+    display: flex;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    position: absolute;
+    right: 23px;
+    top: 47px;
+}
