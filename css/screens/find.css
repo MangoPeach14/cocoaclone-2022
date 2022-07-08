@@ -19,7 +19,7 @@
 }
 
 .recommended-friend {
-    padding: 25px 0px ;
+    padding: 100px 0px ;
     border-top: var(--greyborder);
     border-bottom: var(--greyborder);
     margin:25px 0px;
@@ -27,7 +27,14 @@
 
 .recommended-friend__title {
     font-size: 15px;
-    color:var(--cococagrey);
+    color: var(--cocoagrey);
 }
 
+.recommended-friend span {
+    margin: 100px 0;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
 
